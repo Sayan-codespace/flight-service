@@ -24,6 +24,7 @@ public class FlightController {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
+		System.out.println("Welcome");
 		return "Welcome to Flight Booking System";
 	}
 	
